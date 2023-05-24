@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "json-server": "^0.17.1"
-  },
-  "scripts": {
-    "start":"json-server -p 3006 -w database.json"
-   }
-}

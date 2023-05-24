@@ -4,7 +4,10 @@ import Card from 'react-bootstrap/Card';
 import { useCart } from 'react-use-cart';
 
 export default function ItemsCard (props){
+
     const { addItem } = useCart();
+
+  
     return (
         <div>
             <Card style={{ width: '18rem' }}>
